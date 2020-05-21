@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "node src/index.js"
+        "start": "node src/index.js",
+        "test": "jest"
     },
     "keywords": [],
     "author": "",
@@ -16,5 +17,9 @@
         "graphql-playground-middleware-express": "^1.7.14",
         "mongodb": "^3.5.7",
         "mongodb-memory-server": "^6.6.1"
+    },
+    "devDependencies": {
+        "jest": "^26.0.1",
+        "supertest": "^4.0.2"
     }
 }
